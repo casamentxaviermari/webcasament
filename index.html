@@ -417,13 +417,41 @@
     <!-- fi secció dessitjos -->
     <!-- inici secció felicitacions -->
     <section id="felicitacions">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
+        <div class="container"> <!-- inici container -->
+
+            <div class="row"> <!-- inici row titol -->
+                <div class="col-12 text-center"> <!-- inici col titol -->
                     <h2 class="titol">Felicitats...</h2>
+                </div> <!-- fi col titol -->
+            </div> <!-- fi row titol -->
+
+            <div class="row justify-content-center"> <!-- inici row testimonis -->
+                <!-- card #1 -->
+                <div class="col col-sm-6 card card-testimoni" id="jordiMontse">
+                    <img src="img/persones/jordiMontse.png" alt="" class="card-img-top img-fluid img-thumbnail front">
+                    <div class="card-body back mt-5 text-center">
+                        <h3 class="card-title">Jordi i Montse</h3>
+                        <div class="card-text">
+                            <p>Moltes felicitats!</p>
+                            <p> Que aquesta nova ruta que comenceu ,us aporti amor i felicitat!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card #2 -->
+            <div class="col col-sm-6 card card-testimoni" id="OlgaPepArnau">
+                <img src="img/persones/OlgaPepArnau.png" alt="" class="card-img-top img-fluid img-thumbnail front">
+                <div class="card-body back mt-5 text-center">
+                    <h3 class="card-title">Olga, Pep i Arnau</h3>
+                    <div class="card-text">
+                        <p>La amistad es una de las cosas más importantes con las que podemos contar en la vida y los mejores momentos, merecen ser compartidos.</p>
+                        <p>Gracias por celebrarlos con nosotros!</p>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            </div> <!-- fi row testimonis -->
+        </div> <!-- fi container -->
     </section>
     <!-- fi secció felicitacions -->
 
@@ -439,8 +467,11 @@
     <script src="js/prefixfree.js"></script>
     <!-- fontaweson -->
     <script defer src="js/fontawesome.js"></script>
+    <!-- permet el efecte flip de les felicitacions -->
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <!-- JavaScript pròpi -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/persones.js"></script>
   </body>
 </html>
 
