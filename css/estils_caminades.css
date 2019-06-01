@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap');
+
+/**
+Els elements es tenen en compte desde la bora tant es si tenen o no padding
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url("../img/fons.png");
+	font-family: 'Ubuntu', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+header{
+	margin-top: 30px;
+}
+
+header .nav {
+	background: rgb(0,0,0,.6);
+	min-height: 80px;
+	overflow: hidden;
+}
+
+
+
+/*CAMINADES*/
+
+.caminada {
+	/*background: rgba(255,255,255,1);*/
+	border-top: 5px solid rgba(0,0,0,1);
+	border-bottom:  5px solid rgba(0,0,0,1);
+	padding: 0 20px;
+}
+
+.caminada .titol{
+	padding: 40px 0;
+	border-bottom:  5px solid rgba(0,0,0,1);
+	/*color:#BFF2DA;*/
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+.caminada .galeria .contenidor-imatge{
+	margin-bottom: 40px;
+	min-height: 180px;
+	overflow: hidden;
+}
+
+.caminada .galeria .contenidor-imatge a {
+	background: rgba(0,0,0,1);
+	display: inline-block;
+}
+
+.caminada .galeria .contenidor-imatge:hover img{
+	opacity: .3;
+}
+
+.caminada .modal-dialog{
+	margin:0px auto;
+	height: 100%;
+	max-width: 1000px;
+}
+
+.caminada .modal-content {
+	width: auto;
+}
+
+/*MEDIAQUERIES*/
+/*Dispositius xl*/
+@media screen and (max-width: 1199px){
+
+}
+
+/*Dispositius lg*/
+@media screen and (max-width: 991px){
+	
+}
+
+/*Dispositius ml*/
+@media screen and (max-width: 777px){
+	
+}
+
+/*Dispositius sm*/
+@media screen and (max-width: 575px){
+	
+}

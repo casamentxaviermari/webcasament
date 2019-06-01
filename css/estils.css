@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap');
+
+/**
+Els elements es tenen en compte desde la bora tant es si tenen o no padding
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url("../img/fons.png");
+	font-family: 'Ubuntu', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+header{
+	margin-top: 30px;
+}
+
+header .nav {
+	background: rgb(0,0,0,.6);
+	min-height: 80px;
+	overflow: hidden;
+}
+
+/*logo*/
+
+header .logo h2,
+header .logo span {
+	display: inline-block;
+	font-size: 16px;
+	margin: 0;
+	color:rgba(255,255,255,1);
+}
+
+header .logo h2{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+header .logo span .fa-heart {
+	color:rgba(237,5,53,1);
+}
+
+/*menu*/
+header .menu{
+	padding: 0;
+}
+
+header .menu a {
+	display: block;
+	padding: 0 30px;
+	text-decoration: none;
+	color:rgba(255,255,255,1);
+}
+
+header .menu a div span{
+	font-weight: 400;
+}
+
+header .menu a:hover{
+	background: rgb(0,0,0,.6);
+}
+
+/*Carousel*/
+.slider {
+	margin-bottom: 40px;
+}
+
+.slider .col {
+	padding: 0;
+}
+
+.img-cor {
+	position: relative;
+}
+
+.text-cor{
+	position: absolute;
+	top: 28%;
+	width: 100%;
+}
+
+
+.text-cor h4  {
+	font-size: 1em;
+}
+
+.text-cor-l0 {
+	left: 2.8em;	
+}
+
+
+.text-cor-l1 {
+	left: 2.6em;	
+}
+
+.text-cor-l2 {
+	left: 2.4em;	
+}
+
+.text-cor-l3 {
+	left: 2em;	
+}
+
+.text-cor-l4 {
+	left: 1.8em;	
+}
+
+.text-cor-l5 {
+	left: 1.7em;	
+}
+
+.text-cor-l6 {
+	left: 1.6em;	
+}
+
+.text-cor-l7 {
+	left: 1.5em;	
+}
+
+.text-cor-l70 {
+	left: 1.4em;	
+}
+
+.text-cor-l8 {
+	left: 1.3em;	
+}
+
+.text-cor-l9 {
+	left: 1.2em;	
+}
+
+.text-cor-l10 {
+	left: 1.1em;	
+}
+
+
+/*MEDIAQUERIES*/
+/*Dispositius xl*/
+@media screen and (max-width: 1199px){
+
+}
+
+/*Dispositius lg*/
+@media screen and (max-width: 991px){
+	.logo{
+		height: 76px;
+	}
+	.menu{
+		min-height: 76px;
+	}
+	.menu a {
+		width: 100%;
+	}
+	.menu a div{
+		width: 100%;
+	}
+}
+
+/*Dispositius ml*/
+@media screen and (max-width: 777px){
+	
+}
+
+/*Dispositius sm*/
+@media screen and (max-width: 575px){
+	header{
+		margin-top: 0;
+	}
+	
+	header .logo{
+		height: 40px;
+	}
+	header .menu a div span,
+	header .logo h2,
+	header .logo span {
+		font-size: 12px;
+	}
+}
