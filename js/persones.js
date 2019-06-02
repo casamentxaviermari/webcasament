@@ -53,6 +53,12 @@ $(document).ready(function(){
           trigger: 'click',
           reverse: true
     });
+
+    $("#alexMercheMarc").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
   
 });
 
