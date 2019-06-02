@@ -11,20 +11,48 @@ $(document).ready(function(){
           trigger: 'click',
           reverse: true
     });
+
+    $("#xavierPuigdomenech").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
+
+    $("#lidiaSimon").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
+
+    $("#cristinaRoige").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
+
+    $("#martaISergi").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
+
+    $("#toniMasnou").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
+
+    $("#davidVirginia").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
+
+    $("#davidCarme").flip({
+          axis: 'y',
+          trigger: 'click',
+          reverse: true
+    });
   
 });
 
-function corHover(){
-	$(".img-cor").hover(
-  function () {
-    $(this).addClass('animated');
-    $(this).addClass('infinite');
-    $(this).addClass('pulse');
-  }, 
-  function () {
-    $(this).removeClass('animated');
-    $(this).removeClass('infinite');
-    $(this).removeClass('pulse');
-  }
-  );
- }

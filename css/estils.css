@@ -143,12 +143,23 @@ header .menu a:hover{
 }
 
 /*Felicitacions*/
+#felicitacions .card-testimoni{
+	padding: 0;
+}
+
 #felicitacions .titol{
 	font-size: 40px;
 }
 
 .card-testimoni{
+	padding: 0 20px;
 	max-height: 400px;
+	background-color: rgba(255,255,255,0);
+}
+
+.card-felicitacio {
+	/*padding: 0 20px;*/
+	height: 300px;
 	background-color: rgba(255,255,255,0);
 }
 
