@@ -1,10 +1,11 @@
 $(function(){
-	$('.caminada .contenidor-imatge').on('click', function(){
-		$('#imatgeModal').modal;
+	$('.galeria .contenedor-imagen').on('click', function(){
+		$('#modal').modal;
+		var ruta_imagen = ($(this).find('img').attr('src'));
+		$('#imagen-modal').attr('src', ruta_imagen);
+	});
 
-		// agafem la ruta de la imatge que hem clicat
-		var ruta_imatge = ($(this).find('img').attr('src'));
-		$('#imatgeModal').attr('src', ruta_imatge);
-
+	$('#modal').on('click', function(){
+		$('#modal').modal('hide');
 	});
 })
