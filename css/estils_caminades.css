@@ -58,6 +58,12 @@ body {
 
 .caminada .modal-content {
 	width: auto;
+	height: 480px;
+}
+
+.modal-content img {
+	height: 526px;
+	width: 295px;
 }
 
 /*MEDIAQUERIES*/
