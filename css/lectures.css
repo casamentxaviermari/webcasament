@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700&display=swap');
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url("../img/altres/lectura.png");
+/*	font-family: 'Ubuntu', sans-serif;*/
+	font-family: 'Kalam', cursive;
+}
+
+.container {
+	margin-top: 30px;
+}
+
+.lectures h2{
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.lectures p{
+	font-size: 2rem;
+}
+
+/*MEDIAQUERIES*/
+/*Dispositius xl*/
+@media screen and (max-width: 1199px){
+
+}
+
+/*Dispositius lg*/
+@media screen and (max-width: 991px){
+	.logo{
+		height: 76px;
+	}
+	.menu{
+		min-height: 76px;
+	}
+	.menu a {
+		width: 100%;
+	}
+	.menu a div{
+		width: 100%;
+	}
+}
+
+/*Dispositius ml*/
+@media screen and (max-width: 777px){
+	
+}
+
+/*Dispositius sm*/
+@media screen and (max-width: 575px){
+	header{
+		margin-top: 0;
+	}
+	
+	header .logo{
+		height: 40px;
+	}
+	header .menu a div span,
+	header .logo h2,
+	header .logo span {
+		font-size: 16px;
+	}
+
+	#titol-xavier-mari{
+		font-size: 16px;
+	}
+}
