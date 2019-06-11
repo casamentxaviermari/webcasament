@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700&display=swap');
+/**
+Els elements es tenen en compte desde la bora tant es si tenen o no padding
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-image: url("../img/fons.png");
+	font-family: 'Ubuntu', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+#llibre_max{
+	display: inline;
+}
+
+.llibre {
+	background-color: rgba(255,255,255,0);
+	border-top: 5px rgba(255,255,255,0);
+	padding: 0 20px;
+}
+
+.llibre .titol {
+	padding: 40px 0;
+	text-align: center;
+	color: rgba(0,0,0,1);
+	font-family: 'Kalam', cursive;
+	font-weight: 700;
+}
+
+.llibre .galeria .contenedor-imagen {
+	margin-bottom: 40px;
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.caminada .galeria .contenedor-imagen a {
+	background: #3da5e2;
+	display: inline-block;
+}
+
+.bg-dark{
+	color: rgba(255,255,255,1);
+}
+
+.bg-dark:hover{
+	color: rgba(255,255,255,1);
+}
+
+
+/*MEDIAQUERIES*/
+/*Dispositius xl*/
+@media screen and (max-width: 1199px){
+
+}
+
+/*Dispositius lg*/
+@media screen and (max-width: 991px){
+	#llibre_max{
+		display: none;
+	}
+}
+
+/*Dispositius ml*/
+@media screen and (max-width: 777px){
+	
+}
+
+/*Dispositius sm*/
+@media screen and (max-width: 575px){
+	
+}
