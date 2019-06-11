@@ -5,9 +5,9 @@ $(document).ready(function(){
 	$('#paginador').append('<div id="paginador_llibre"><ul class="pagination pagination-sm"></ul></div>');
 	var nav = $('#paginador_llibre');
 	var paginas = parseInt($("#wrapper_llibre").turn("pages"));
-	var ancho = (paginas*28) + 50;	
-	$("#paginador").css('width', ancho + "px");
-
+	// var ancho = (paginas*28) + 50;	
+	// $("#paginador").css('width', ancho + "px");
+/**
 	//Afegeixo li per la pàgina prèvia
 	$("#paginador_llibre ul").append('<li class="prev_page page-item dissabled"><a class="page-link bg-dark" href="#" tabindex="-1" aria-disabled="true">&lt;-</a></li>');
 
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 	//Afegeixo el li per la pagina següent
 	$("#paginador_llibre ul").append('<li class="next_page page-item"><a href="#" class="page-link bg-dark">-&gt</a></li>');
-
+*/
 	// funcions pròpies del paginador
 	$(".li_pagina a").click(function(){
 		var rel = $(this).attr("rel");
