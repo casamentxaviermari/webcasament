@@ -54,18 +54,18 @@ header .menu{
 	padding: 0;
 }
 
-header .menu a {
+#navegador a {
 	display: block;
 	padding: 0 30px;
 	text-decoration: none;
 	color:rgba(255,255,255,1);
 }
 
-header .menu a div span{
+#navegador a div span{
 	font-weight: 400;
 }
 
-header .menu a:hover{
+#navegador a:hover{
 	background: rgb(0,0,0,.6);
 }
 

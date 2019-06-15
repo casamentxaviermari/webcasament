@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700&display=swap');
 
 /**
 Els elements es tenen en compte desde la bora tant es si tenen o no padding
@@ -31,8 +32,9 @@ body {
 	padding: 40px 0;
 	text-align: center;
 	color: rgba(0,0,0,1);
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-family: 'Kalam', cursive;
+	font-size: 10em;
+	font-weight: 700;
 }
 
 .caminada .galeria .contenedor-imagen {
@@ -42,8 +44,11 @@ body {
 }
 
 .caminada .galeria .contenedor-imagen a {
-	background: #3da5e2;
+	background: rgba(0,0,0,.4);
 	display: inline-block;
+	border: 0.65em solid rgba(89,67,39,1);
+  	margin: 1em auto 0.5em;
+  	box-shadow: 14px 6px 10px 4px rgba(0,0,0,0.75);
 }
 
 .caminada .galeria .contenedor-imagen:hover img {
@@ -57,13 +62,16 @@ body {
 }
 
 .caminada .modal-content {
-	width: auto;
-	height: 480px;
+	height: 400px;
+	width: 535px;
+	box-shadow: 24px -2px 30px 4px rgba(0,0,0,0.75);	
+	border: 0.65em solid rgba(89,67,39,1);
+  	margin: 1em auto 0.5em;
 }
 
 .modal-content img {
-	height: 526px;
-	width: 295px;
+	height: 400px;
+	width: 535px;
 }
 
 /*MEDIAQUERIES*/
