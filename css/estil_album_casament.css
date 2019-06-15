@@ -86,8 +86,9 @@ body {
 	border-radius: 50%; /*arrodoneix les bores de l'element*/
 	cursor: pointer; /*canvia el cursor*/
 	position:fixed; /*manté l'element en una posició fixa*/
-	bottom: 20px; /*es desplaçarà tant aball com es pugui*/
+	bottom: 40px; /*es desplaçarà tant aball com es pugui*/
 	right: 20px; /* es desplaçarà tant a l'esquerra com es pugui*/
+	z-index: 100;
 }
 
 /*desordenar les fotos*/
