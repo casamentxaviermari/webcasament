@@ -31,7 +31,8 @@ body {
 .caminada .titol {
 	padding: 40px 0;
 	text-align: center;
-	color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 	font-family: 'Kalam', cursive;
 	font-size: 10em;
 	font-weight: 700;
@@ -73,6 +74,44 @@ body {
 	height: 400px;
 	width: 535px;
 }
+
+/*botó anar amunt*/
+
+.anar-amunt{
+	display: none; /*no es mostrarà am js escanviarà per que es mostri a partir de cert height*/
+	padding:20px;
+	background: rgba(89,67,39,1);	
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	border-radius: 50%; /*arrodoneix les bores de l'element*/
+	cursor: pointer; /*canvia el cursor*/
+	position:fixed; /*manté l'element en una posició fixa*/
+	bottom: 20px; /*es desplaçarà tant aball com es pugui*/
+	right: 20px; /* es desplaçarà tant a l'esquerra com es pugui*/
+}
+
+/*desordenar les fotos*/
+.contenedor-imagen:nth-child(4n+1){
+	transform: rotate(4deg);
+}
+
+.contenedor-imagen:nth-child(4n+3){
+  transform: rotate(-24deg);
+}
+
+.contenedor-imagen:nth-child(2n+2){
+  transform: rotate(14deg);
+}
+
+
+.contenedor-imagen:nth-child(2n+3){
+  transform: rotate(-8deg);
+}
+
+.contenedor-imagen:nth-child(3n+1){
+  transform: rotate(-8deg);
+}
+
 
 /*MEDIAQUERIES*/
 /*Dispositius xl*/
