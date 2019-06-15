@@ -87,7 +87,9 @@ body {
 
 /*Dispositius ml*/
 @media screen and (max-width: 777px){
-	
+	.caminada .titol {
+	font-size: 7em;
+}
 }
 
 /*Dispositius sm*/
