@@ -134,5 +134,13 @@ body {
 
 /*Dispositius sm*/
 @media screen and (max-width: 575px){
-	
+	.caminada .modal-content {
+		height: 270px;
+		width: 360px;
+	}
+
+	.modal-content img {
+		height: 270px;
+		width: 360px;
+	}
 }
